@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-console.log("API URL:", API_BASE_URL);
 import { SubTodoItem } from "./SubToDoItem";
 
 function Todo() {
@@ -19,7 +18,6 @@ function Todo() {
 
   const fetchTodos = async () => {
     try {
-      console.log("fetching todos", `${API_BASE_URL}/todos`);
       const response = await axios.get(`${API_BASE_URL}/todos`);
       setTodos(response.data);
     } catch (error) {
