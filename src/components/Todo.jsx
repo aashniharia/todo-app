@@ -19,7 +19,7 @@ function Todo() {
 
   const fetchTodos = async () => {
     try {
-      console.log("fetching todos");
+      console.log("fetching todos", `${API_BASE_URL}/todos`);
       const response = await axios.get(`${API_BASE_URL}/todos`);
       setTodos(response.data);
     } catch (error) {
