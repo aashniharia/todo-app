@@ -1,12 +1,33 @@
-# React + Vite
+# Tidy Tasks - To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient To-Do app built with React.js for the frontend, Node.js with Express for the backend, and styled with Tailwind CSS. This app allows users to create tasks with subtasks, assign priorities, and sort tasks based on different criteria.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can try the live version of the app here: [Tidy Tasks - Live Demo](https://tidy-tasks-dev.netlify.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Create Tasks**: Add tasks with descriptions, due dates, and priorities.
+- **Subtasks**: Organize your tasks further by adding subtasks with individual statuses.
+- **Priorities**: Set priorities for each task (e.g., Low, Medium, High).
+- **Sorting**: Sort tasks based on priority, due date, or status (e.g., pending, completed).
+- **Task Completion**: Mark tasks and subtasks as complete.
+- **Responsive Design**: Fully responsive UI built with Tailwind CSS.
+- **RESTful API**: Backend built with Node.js and Express to handle CRUD operations.
+
+## Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Deployment**: Netlify for frontend, Render for backend
+
+## Sorting and Filtering
+
+- **Sort by Priority**: Tasks can be sorted based on their priority (Low, Medium, High).
+- **Sort by Date**: Tasks can be sorted by their due date.
+
+
+Made with ❤️ by [Aashni Haria] (https://tidy-tasks-dev.netlify.app/)
+
